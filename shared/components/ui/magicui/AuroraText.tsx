@@ -7,10 +7,17 @@ interface AuroraTextProps {
   children: React.ReactNode;
   className?: string;
 }
+type AuroraTextSpanProps = AuroraTextProps &
+  React.HTMLAttributes<HTMLSpanElement>;
 
-const AuroraText = ({ children, className }: AuroraTextProps) => {
+const AuroraText = ({
+  children,
+  className,
+  ...props
+}: AuroraTextSpanProps) => {
   return (
     <motion.span
+      {...props}
       className={cn(
         'inline-block bg-clip-text text-transparent',
         '[background-image:linear-gradient(90deg,var(--main-color),var(--secondary-color),var(--main-color))]',
