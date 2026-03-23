@@ -32,12 +32,14 @@ const MainMenu = () => {
 
   const { theme, setTheme, isGlassMode } = useThemePreferences();
 
-  const characterTileClassName = clsx(
+  const characterTileClassName = (delay: string) => clsx(
     'inline-flex h-12 w-12 items-center justify-center rounded-2xl',
     'bg-(--secondary-color) group-hover:bg-(--main-color) text-(--background-color)',
     'border-b-8 border-(--secondary-color-accent) group-hover:border-(--main-color-accent)',
     'transition-all duration-200',
     'active:border-b-0 active:translate-y-[6px] active:mb-[6px]',
+    'animate-float',
+    delay,
   );
 
   const { playClick } = useClick();
@@ -190,17 +192,6 @@ const MainMenu = () => {
                 )}
               />
             )}
-            {/* <Settings
-              size={32}
-              className={clsx(
-                'hover:cursor-pointer duration-250 hover:scale-120',
-                'active:scale-100 active:duration-225'
-              )}
-              onClick={() => {
-                playClick();
-                window.open('/settings', '_self');
-              }}
-            /> */}
 
             <FontAwesomeIcon
               icon={faDiscord}
@@ -279,7 +270,11 @@ const MainMenu = () => {
                   )}
                   onClick={() => playClick()}
                 >
-                  <span lang='ja' className={characterTileClassName}>
+                  <span lang='ja' className={characterTileClassName(
+                    i === 0 ? '[animation-delay:0ms]' : 
+                    i === 1 ? '[animation-delay:800ms]' : 
+                    '[animation-delay:1600ms]'
+                  )}>
                     {link.name_ja}
                   </span>
                   <span lang='en' className='leading-none'>
