@@ -80,7 +80,7 @@
   {
     "id": 14,
     "text": "\"〜なくてもいい\" means \"don't have to\" and lifts an obligation.",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -710,7 +710,7 @@
   {
     "id": 119,
     "text": "\"〜ように\" can express purpose, like \"in order to\" or \"so that\". (practice variation 34)",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -836,7 +836,7 @@
   {
     "id": 140,
     "text": "\"〜ば〜ほど\" means \"the more... the more...\". (practice variation 55)",
-    "issued": false,
+    "issued": true,
     "completed": false
   }
 ]

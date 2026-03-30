@@ -293,7 +293,7 @@
     "explanation": "Used to comfort someone: 'never mind'. (Set 2)",
     "example": "ミスしてもドンマイ！",
     "id": 33,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -520,8 +520,8 @@
     "id": 58,
     "issued": false,
     "completed": true,
-    "completedBy": "24F1002074",
-    "completedPR": 10790
+    "completedBy": "24f2008779",
+    "completedPR": 10985
   },
   {
     "termA": "ペットボトル (petto botoru)",
@@ -736,7 +736,7 @@
     "explanation": "マンション means apartment building in Japanese. (Set 5)",
     "example": "駅前のマンションに住んでいます。",
     "id": 82,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1024,7 +1024,7 @@
     "explanation": "Often means trying something new. (Set 6)",
     "example": "新しい料理にチャレンジしてみる。",
     "id": 114,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {

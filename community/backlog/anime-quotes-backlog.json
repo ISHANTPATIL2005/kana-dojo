@@ -246,7 +246,7 @@
     "english": "I am Gundam!",
     "anime": "Mobile Suit Gundam 00",
     "character": "Setsuna F. Seiei",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -256,7 +256,7 @@
     "english": "This world is cruel... yet so beautiful.",
     "anime": "Attack on Titan",
     "character": "Mikasa Ackerman",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
@@ -1096,7 +1096,7 @@
     "english": "Good grief. (alt wording 6) (alt wording 58)",
     "anime": "JoJo's Bizarre Adventure: Stardust Crusaders",
     "character": "Jotaro Kujo",
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
